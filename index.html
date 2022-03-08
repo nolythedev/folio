@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /><link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="stylesheet.css" />
     <title>Noly - Developer</title>
   </head>
   <body>
     <header>
-      <h1>No</h1>
+      <h1>N</h1>
       <nav>
-        <a href="info.html">Info&#x02199;</a>
+        <a href="info.html">Works&#x02199;</a>
       </nav>
     </header>
 
     <section class="hero">
-      <div class="introduction">
+      <div  class="introduction animate__fadeIn ">
       <h1>
         Hello 🖖🏾, I'm <span class="name">Noly</span> <span class="avatar"> <img src="assets/noly.png"> </span> the Creative Frontend Developer 🚀
       </h1>
@@ -29,21 +31,56 @@
       </nav>
     </div>
     </section>
-
-    <section class="work">
-      <div class="filters">
-        <nav class="filter-nav">
-          <a href="#">NFT Marketplace</a>
-          <a href="#">Flooz x $SYA</a>
-          <a href="#">Artcovers</a>
-          <a href="#">Cold Cleanse</a>
-        </nav>
-      </div>
-
-      <div class="images">
+ 
+    <nav class="filters">
+      <div class="container">
+      <ul class="filters-list">
+        <li><a href="#" class="selected" data-filter=".work"> View All</a></li>
+        <li><a href="albums.html" data-filter=".development">Web Development</a></li>
+        <li><a href="singles.html" data-filter=".graphic">Graphic Design</a></li>
+    
+      </ul>
+    </nav>
+    
+    <section class="recent-work">
+      <div class="container">
+      
+        <div class="work graphic">
+          <div class="overlay">
+            <h4>Docta Dee</h4>
+            <p>Single Artwork</p>
+          </div>
           <img src="assets/DD - Initiative.jpg">
-          <img src="assets/EXP.png">
+        </div>
+      
+        <div class="work graphic">
+          <div class="overlay">
+            <h4>Flooz x $SYA</h4>
+            <p>Merch Design</p>
+          </div>
+          <img src="assets/Flooz-1-removebg-preview.png">
+        </div>
+      
+          <div class="work development">
+            <div class="overlay">
+              <h4>Nike</h4>
+              <p>Email Campaign</p>
+            </div>
+          <img src="red-and-blue.jpg">
+        </div>
+      
+    
       </div>
-    </section>
+  </section>
+
+    <footer>
+
+      <p>&copy; 2022</p>
+
+    </footer>
   </body>
+
+  <script src="jquery.js"></script>
+  <script src="main.js"></script>
+ 
 </html>
