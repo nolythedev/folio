@@ -106,7 +106,7 @@ section.hero {
 
 
 .about {
-  height: 100vh;
+  height: 45vh;
   background-color: #fcfcfc;
   color: #000;
 }
@@ -123,11 +123,7 @@ section.hero {
   border-radius: 20px;
 }
 
-.details{
-  display:flex;
-  justify-content: center;
 
-}
 
 .details h2 {
   font-size: 32px;
