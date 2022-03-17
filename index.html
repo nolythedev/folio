@@ -10,17 +10,23 @@
     <title>Noly - Developer</title>
   </head>
   <body>
+
     <header>
       <h1>N</h1>
       <nav>
-        <a href="info.html">Works&#x02199;</a>
+        <a href="#section2">Works&#x02199;</a>
       </nav>
     </header>
 
-    <section class="hero">
-      <div  class="introduction animate__fadeIn ">
+
+ 
+    <div id="circle"></div>
+
+
+    <section class="hero animate__slideInDown">
+      <div  class="introduction ">
       <h1>
-        Hello 🖖🏾, I'm <span class="name">Noly</span> <span class="avatar"> <img src="assets/noly.png"> </span> the Creative Frontend Developer 🚀
+        Hello ✌🏾 , I'm <span class="name">Noly</span> <span class="avatar"> <img src="assets/noly.png"> </span> the <span class="name">Creative</span> Frontend Developer 🚀
       </h1>
     </div>
     <div class="social-section">
@@ -30,55 +36,112 @@
         <a href="Contact.html">Contact&#x02197;</a>
       </nav>
     </div>
+
     </section>
- 
-    <nav class="filters">
-      <div class="container">
-      <ul class="filters-list">
-        <li><a href="#" class="selected" data-filter=".work"> View All</a></li>
-        <li><a href="albums.html" data-filter=".development">Web Development</a></li>
-        <li><a href="singles.html" data-filter=".graphic">Graphic Design</a></li>
+
     
-      </ul>
-    </nav>
-    
-    <section class="recent-work">
-      <div class="container">
+    <section class="about" >
+
+     <div class="introduction">
+      <h1>I love designing <span class="words">cool</span> things, writing <span class="words">awesome</span> code and creating <span class="words">unreal</span> experiences for users.</h1>
+      </div>
+
+      <div class="details">
+
+       <ul>
+        <li>
+          <h2>Where</h2>
+          <p>Harlow, Essex</p>
+
+        </li>
+
+        <li>
+
+          <h2>Skills</h2>
+          <p>Design</p>
+          <p>Web Development</p>
+        </li>
+
+        <li>
+
+          <h2>Past</h2>
+          <p> Freelance Web Developer @ <a href="https://www.digibiz.biz/">DigiBiz</a></p>
+        </li>
+
+       </ul>
+        
+        </div>
+
+    </section>
+
+  
+    <section class="recent-work" id="section2">
+
+  <div class="recent-nav">
+  
+  </div>
+      <nav class="filters">
+        <div class="nav-container">
+        <ul class="filters-list">
+          <li><a href="#" class="selected" data-filter=".work"> View All</a></li>
+          <li><a href="albums.html" data-filter=".development">Web Development</a></li>
+          <li><a href="singles.html" data-filter=".graphic">Graphic Design</a></li>
       
+        </ul>
+      </nav>
+  </div>
+
+      <div class="container">
         <div class="work graphic">
           <div class="overlay">
-            <h4>Docta Dee</h4>
+            <a href="https://open.spotify.com/track/5fvfYgOke32qWgxSGGxDYJ?si=4eca099e8a0d4821">Docta Dee</a>
             <p>Single Artwork</p>
           </div>
           <img src="assets/DD - Initiative.jpg">
         </div>
+
+        <div class="work graphic">
+          <div class="overlay">
+            <a href="https://open.spotify.com/track/03xKyzT7uyTWx9mD5hppzi?si=c437282b766247ab">S1NE</a>
+            <p>Single Artwork</p>
+          </div>
+          <img src="assets/S1NE - SHIFT.jpg">
+        </div>
       
         <div class="work graphic">
           <div class="overlay">
-            <h4>Flooz x $SYA</h4>
-            <p>Merch Design</p>
+            <a href="https://flooz.shop/">Flooz x $SYA</a>
+            <p>Crypto Merch Design</p>
           </div>
-          <img src="assets/Flooz-1-removebg-preview.png">
+          <img src="assets/sya-merch.jpg">
         </div>
       
           <div class="work development">
             <div class="overlay">
-              <h4>Nike</h4>
+              <a href="https://nolythedev.github.io/nike-email-campaign/">Nike</a>
               <p>Email Campaign</p>
             </div>
-          <img src="red-and-blue.jpg">
+          <img src="assets/nike-email.jpg">
         </div>
       
     
       </div>
   </section>
 
+
+
+
+
     <footer>
 
       <p>&copy; 2022</p>
+      <p>Website by <a href="">Noly the Dev</a></p>
 
     </footer>
+
+
   </body>
+
 
   <script src="jquery.js"></script>
   <script src="main.js"></script>
